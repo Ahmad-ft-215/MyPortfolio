@@ -1,10 +1,10 @@
 import React from "react";
-import ANTHRO from '../assets/Anthro.png';
-import DINO from '../assets/dino.png';
+// import ANTHRO from '../assets/Anthro.png';
+// import DINO from '../assets/dino.png';
 import GROWW from '../assets/groww.png';
 import SHOPBOP from '../assets/shopbop.png';
 import INTERN from '../assets/intern.png';
-import TXTUTILS from '../assets/txtutils.png';
+//import TXTUTILS from '../assets/txtutils.png';
 
 const Work = () => {
   return (
