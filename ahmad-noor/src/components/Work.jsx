@@ -5,7 +5,7 @@ import GROWW from '../assets/groww.png';
 import SHOPBOP from '../assets/shopbop.png';
 import INTERN from '../assets/intern.png';
 //import TXTUTILS from '../assets/txtutils.png';
-
+``
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen bg-[#0a192f] text-gray-300 ">
