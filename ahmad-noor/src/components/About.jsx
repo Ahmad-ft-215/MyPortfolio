@@ -17,10 +17,7 @@ const About = () => {
                     <p>Hi there! I'm Ahmad Noor and I'm 23 years old. Please take a look around.</p>
                 </div>
                 <div>
-                    <p>After graduating in 2021, I decided to join Masai School to acquire necessary skills 
-					required for industries. Since then I've focused on learning everything about web development, and I've had the
-					privilege of learning with amazing instructors in Masai School. My main focus is building accessible, performant and awesome websites. I'm always
-					looking for new challenges.</p>
+                    <p>I am passoniate about building excellent software that imporess the lives of those around me. I specialize in creating software for clients ranging from individuals and small-business all the way to large enterprise corporation. What would you do if you had a software expert available at your fingerpoints.</p>
                 </div>
             </div>
         </div>
