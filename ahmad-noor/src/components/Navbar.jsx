@@ -72,7 +72,7 @@ const Navbar = () => {
         <li className="py-6 text-4xl"><Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link></li>
-        <li className="py-6 text-4xl"><a href="https://docs.google.com/document/d/1CPns45pCK2ivyk7WatsNSwExYA0-PIz93qLdOtYc8DA/edit?usp=sharing" target='_blank' rel="noreferrer">
+        <li className="py-6 text-4xl"><a href="https://drive.google.com/file/d/16HNkdNhNzni1YaNsSR0hkmYVqMgzgR57/view?usp=sharing" target='_blank' rel="noreferrer">
             Resume
           </a></li>
       </ul>
@@ -108,7 +108,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://docs.google.com/document/d/1CPns45pCK2ivyk7WatsNSwExYA0-PIz93qLdOtYc8DA/edit?usp=sharing"
+              href="https://drive.google.com/file/d/16HNkdNhNzni1YaNsSR0hkmYVqMgzgR57/view?usp=sharing"
               target='_blank' rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />

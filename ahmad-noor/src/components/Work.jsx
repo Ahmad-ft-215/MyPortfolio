@@ -1,140 +1,231 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
+
 import React from "react";
-// import ANTHRO from '../assets/Anthro.png';
-// import DINO from '../assets/dino.png';
-import GROWW from '../assets/groww.png';
-import SHOPBOP from '../assets/shopbop.png';
-import INTERN from '../assets/intern.png';
-//import TXTUTILS from '../assets/txtutils.png';
+import ANTHRO from "../assets/Shopbop.png";
+import DINO from "../assets/frazzo.png";
+import STREAMLINE from "../assets/intern.png";
+import QUIZZ from "../assets/groww.png";
+import MAGIC from "../assets/Max.png";
+import { FaEye, FaGithub } from "react-icons/fa";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen bg-[#0a192f] text-gray-300 ">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div
+      name="work"
+      className="w-full  sm:h-[1600px] md:h-[1300px] bg-[#0a192f] text-gray-300 "
+    >
+      <div className="sm:max-w-[720px] md:max-w-[1000px] lg:max-w-[1250px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-800">
-            Work
+            Projects
           </p>
           <p className="py-6">Check some of my recent work</p>
         </div>
 
-{/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {/* Container */}
 
-        {/* grid item */}
-
-        <div
-            style={{ backgroundImage: `url(${SHOPBOP})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Shopbop Clone
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://shopbop-clone-project.netlify.app/" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+        <div className=" w-full grid grid-cols-1 place-content-center sm:grid-cols-2 md:grid-cols-3 gap-6 ">
+          <div className=" bg-[#dce0ee] rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500">
+            <img
+              className=" rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto"
+              src={STREAMLINE}
+              alt="Intern Theory"
+            />
+            <div className="px-3 my-4">
+              <p className="font-bold  text-left text-gray-600">Intern Theory (Clone)</p>
+              <p className="my-2 text-sm text-left text-gray-500">
+              Inspiration from online purchasing courses to Upgrade skills and also find Internships in different cities.
+              </p>
+              <p className="my-2 text-sm text-lef text-gray-500 inline">
+                <span className=" text-sm text-left  mr-2 font-bold text-[#0a192f] ">
+                  Tech Stack:
+                </span>{" "}
+                HTML | CSS | Javascript | Bootstrap
+              </p>
+              <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
+                <a href="https://elated-shaw-64a95c.netlify.app" target="_blank" rel="noreferrer">
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Live</span>
+                    <FaEye className="mt-[6px] mb-[6px] " />
                   </button>
                 </a>
-                <a href="https://github.com/Ahmad-ft-215/Shopbop-Clone-Project" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                <a
+                  href="https://github.com/Ahmad-ft-215/Intern-Theroy"
+                  target="_blank" rel="noreferrer"
+                >
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Repo</span>
+                    <FaGithub className="mt-[6px] mb-[6px] " />
                   </button>
                 </a>
               </div>
-            </div> */}
+            </div>
+          </div>
 
 
-            <div className="opacity-0 group-hover:opacity-100 px-2">
-              <span className="text-[18px] font-bold text-white ">
+          <div className=" bg-[#dce0ee] rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500">
+            <img
+              className=" rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto"
+              src={QUIZZ}
+              alt="Sugar Cosmetics image"
+            />
+            <div className="px-3 my-4">
+              <p className="font-bold  text-left text-gray-600">Groww (Clone)</p>
+              <p className="my-2 text-sm text-left text-gray-500">
+              Inspiration from a stock purchasing web-application where you can buy and sell stocks.
+              </p>
+              <p className="my-2 text-sm text-lef text-gray-500 inline">
+                <span className=" text-sm text-left  mr-2 font-bold text-[#0a192f] ">
+                  Tech Stack:
+                </span>{" "}
+                HTML | CSS | Javascript | Node.js{" "}
+              </p>
+              <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
+                <a href="https://astounding-empanada-72ca7f.netlify.app/" target="_blank" rel="noreferrer">
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Live</span>
+                    <FaEye className="mt-[6px] mb-[6px] " />
+                  </button>
+                </a>
+                <a href="https://github.com/Ahmad-ft-215/Team-GROWW" target="_blank" rel="noreferrer">
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Repo</span>
+                    <FaGithub className="mt-[6px] mb-[6px] " />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className=" bg-[#dce0ee] rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500">
+            <img
+              className=" rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto"
+              src={MAGIC}
+              alt="kimaye image"
+            />
+            <div className="px-3 my-4">
+              <p className="font-bold  text-left text-gray-600">Max Fashion (Clone)</p>
+              <p className="my-2 text-sm text-left text-gray-500">
+              Inspiration from an e-commerce website where you can buy different varities of clothes and accessories.
+              </p>
+              <p className="my-2 text-sm text-lef text-gray-500 inline">
+                <span className=" text-sm text-left  mr-2 font-bold text-[#0a192f] ">
+                  Tech Stack:
+                </span>{" "}
+                NextJS | Bootstrap | Rest API | ExpressJS | MongoDB | NodeJS{" "}
+              </p>
+              <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
+                <a
+                  href="https://clone-of-maxfashion-rushig777.vercel.app/"
+                  target="_blank" rel="noreferrer"
+                >
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Live</span>
+                    <FaEye className="mt-[6px] mb-[6px] " />
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/Ahmad-ft-215/festive-crayon-1023"
+                  target="_blank" rel="noreferrer"
+                >
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Repo</span>
+                    <FaGithub className="mt-[6px] mb-[6px] " />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div className=" bg-[#dce0ee] rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500">
+            <img
+              className=" rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto"
+              src={ANTHRO}
+              alt="AnthroPologie"
+            />
+            <div className="px-3 my-4">
+              <p className="font-bold  text-left text-gray-600">
+                Shopbop Clone (Clone)
+              </p>
+              <p className="my-2 text-sm text-left text-gray-500">
               Inspiration from an International e-commerce website where you can buy different products.
-              </span>
-              <p className='pt-3'> <span className="text-pink-400 font-bold">Tech-Stack: </span> React.JS | Javascript | Node</p>
-              <div className="pt-3 text-center">
-              <a href="https://shopbop-clone-project.netlify.app/" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+              </p>
+              <p className="my-2 text-sm text-lef text-gray-500 inline">
+                <span className=" text-sm text-left  mr-2 font-bold text-[#0a192f] ">
+                  Tech Stack:
+                </span>
+                ReactJS | Redux Toolkit | Bootstrap | Rest API | NodeJS
+              </p>
+              <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
+                <a
+                  href="https://shopbop-clone-project.netlify.app/"
+                  target="_blank" rel="noreferrer"
+                >
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Live</span>
+                    <FaEye className="mt-[6px] mb-[6px] " />
                   </button>
                 </a>
-                <a href="https://github.com/Ahmad-ft-215/Shopbop-Clone-Project" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-           
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${GROWW})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="opacity-0 group-hover:opacity-100 px-2">
-            <span className="text-[18px] font-bold text-white ">
-                Inspiration from a stock purchasing web-application where you can buy and sell stocks.
-              </span>
-              <p className='pt-3'> <span className="text-pink-400 font-bold">Tech-Stack: </span> HTML | CSS | Javascript | Node</p>
-              <div className="pt-3 text-center">
-                <a href="https://astounding-empanada-72ca7f.netlify.app/" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/Ahmad-ft-215/Team-GROWW" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                <a
+                  href="https://github.com/Ahmad-ft-215/Shopbop-Clone-Project"
+                  target="_blank" rel="noreferrer"
+                >
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Repo</span>
+                    <FaGithub className="mt-[6px] mb-[6px] " />
                   </button>
                 </a>
               </div>
             </div>
           </div>
 
-          <div
-            style={{ backgroundImage: `url(${INTERN})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Intern Theory
-               </span>
-              <div className="pt-8 text-center">
-                <a href="https://www.interntheory.com/" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/Ahmad-ft-215/Intern-Theroy" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div> */}
 
-           <div className="opacity-0 group-hover:opacity-100 px-2">
-            <span className="text-[18px] font-bold text-white ">
-            Inspiration from online purchasing courses to Upgrade skills and also find Internships in different cities.
-              </span>
-              <p className='pt-3'> <span className="text-pink-400 font-bold">Tech-Stack: </span> HTML | CSS | Javascript | Local Storage</p>
-              <div className="pt-3 text-center">
-                <a href="https://elated-shaw-64a95c.netlify.app" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+
+          <div className="bg-[#dce0ee] rounded-2xl shadow-md shadow-gray-400 hover:scale-110 duration-500">
+            <img
+              className=" rounded-tr-2xl  rounded-tl-2xl mx-auto my-auto"
+              src={DINO}
+              alt="frazzo"
+            />
+            <div className="px-3 my-4">
+              <p className=" font-bold  text-left text-gray-600">Frazzo Clone (Clone)</p>
+              <p className="my-2 text-sm text-left  text-gray-500">
+              Inspiration from an online platform that allows customer to get farm fresh produce directly from farmers. With Fraazo you can get it delivered at your doorstep!
+              </p>
+              <p className="my-2 text-sm text-left   text-gray-500 inline">
+                <span className=" text-sm text-left  mr-2 font-bold text-[#0a192f] ">
+                  Tech Stack:
+                </span>
+                React | Redux Toolkit | Chakra UI | MongoDB | Rest Api | NodeJS{" "}
+              </p>
+              <div className="flex flex-row pt-8 pb-4 justify-between w-full text-gray-500">
+                <a
+                  href="https://fraazo-website-clone.netlify.app/"
+                  target="_blank" rel="noreferrer"
+                >
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Live</span>
+                    <FaEye className="mt-[6px] mb-[6px] " />
                   </button>
                 </a>
-                <a href="https://github.com/Ahmad-ft-215/Intern-Theroy" target='_blank' rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                <a
+                  href="https://github.com/Ahmad-ft-215/cruel-statement-6938"
+                  target="_blank" rel="noreferrer"
+                >
+                  <button className="flex flex-row  justify-around  w-[80px] text-white hover:bg-[#1b3050] rounded-xl bg-[#0a192f] ">
+                    <span className="text-white text-lg ">Repo</span>
+                    <FaGithub className="mt-[6px] mb-[6px] " />
                   </button>
                 </a>
               </div>
             </div>
-
-
           </div>
 
-          
+
+
         </div>
       </div>
     </div>
